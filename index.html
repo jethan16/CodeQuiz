@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="1_Assets/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+    
+    <title> Code Quiz | Home </title>
+</head>
+<body>
+    <header class="container-fluid header">
+        <div class="high-link">
+            <a class="high" href="./highScores.html">View Highscores</a>
+        </div>
+        <div class="time">
+            <h5>Time: <span id="time">60</span></h5>
+        </div>
+    </header>
+
+    <main id="main">
+        <h1><strong>Quiz Challenge</strong></h1>
+        <p>Try to answer the following questions within the time limit. Keep in mind that incorrect answers result in a time penalty of 10 seconds. So don't go guessing questions willy nilly!</p>
+    <h5 id="startbutton" class="startbutton">Start Quiz</h5>
+
+    </main>
+
+    <main id="submitScore" class="hide scoreFormat">
+        <h1>Game Over!</h1>
+        <h4>Submit your score.</h4>
+        <input class="input" type="text" name="playerName" id="playerName" placeholder="Your Name">
+        <button type="button" id="submitScoreButton" class="submitbutton">submit</button>
+    </main>
+
+   <script src="./1_Assets/script.js"></script>
+</body>

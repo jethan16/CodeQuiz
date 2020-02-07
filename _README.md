@@ -23,4 +23,4 @@ At the end of the quiz, they are asked to submit their name.
 
 Finally, the user is taken to the high scores page where they can choose to clear the scores, or go back to the landing page.
 
-![](1_Assets/Images/Screenshots/highScores)
+![](1_Assets/Images/Screenshots/highScores.png)

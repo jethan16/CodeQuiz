@@ -135,6 +135,7 @@ function checker(event) {
         }
 
         question()
+        
         console.log("i got clicked.")
         // console.log(count)
     }

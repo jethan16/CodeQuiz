@@ -3,7 +3,7 @@
 
 This is a multiple choice quiz that allows the user to to store their high score and compare it against other scores. 
 
-At the start, the user can either begin teh quiz, or go to the 'High Scores' page to view any stored scores of past users. 
+At the start, the user can either begin the quiz, or go to the 'High Scores' page to view any stored scores of past users. 
 
 ![](1_Assets/Images/Screenshots/quizStart)
 

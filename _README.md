@@ -5,7 +5,7 @@ This is a multiple choice quiz that allows the user to to store their high score
 
 At the start, the user can either begin the quiz, or go to the 'High Scores' page to view any stored scores of past users. 
 
-![](1_Assets/Images/Screenshots/quizStart)
+![](1_Assets/Images/Screenshots/quizStart.png)
 
 The questions and corresponding answers are stored in an array, and the program uses the question function to iterate through that array and dynamically create html for each question.
 
